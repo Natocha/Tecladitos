@@ -1,0 +1,125 @@
+html,
+body {
+  padding: 0 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: rgb(206, 199, 199);
+  }
+}
+
+
+
+.Texto1{
+  margin: 0;
+  -webkit-text-stroke-color: #ff00c8;
+  -webkit-text-stroke-width: 2px;
+  font-size:250%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+  
+
+
+.Navbar1{
+   width: "100%",
+}
+
+
+.carta1 {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  margin: 4px 2px;
+  transition: 0.3s;
+  
+}
+.carta2 {
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+.carta3 {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+
+
+.carta1:hover {
+  background-color: #000000;
+  color: white;
+}
+.carta2:hover {
+  background-color: #000000;
+  color: white;
+}
+.carta3:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
+
+
+
+.imagen1{
+  transition: opacity 0.3s ease; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  
+}
+
+.imagen2{
+  transition: opacity 0.3s ease; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.imagen3{
+  transition: opacity 0.3s ease; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.imagen1:hover { 
+  opacity: 0.5; 
+}
+.imagen2:hover { 
+  opacity: 0.5; 
+}
+.imagen3:hover { 
+  opacity: 0.5; 
+}
