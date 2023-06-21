@@ -25,7 +25,7 @@ export default function App() {
       <Navbar  className="Navbar1" isBordered={isDark} variant="sticky">
         <Navbar.Brand>
           <div>
-            <Image src="https://cdn-icons-png.flaticon.com/512/7546/7546214.png" width={100} height={100} />
+            <Image src="https://cdn-icons-png.flaticon.com/512/7546/7546214.png" alt="logo" width={100} height={100} />
           </div>       
           <Text b color="inherit" hideIn="xs">
             Tecladitos
@@ -35,7 +35,7 @@ export default function App() {
           <Navbar.Link isActive href="#">Mas Vendidos</Navbar.Link>
           <Navbar.Link href="#">Clientes</Navbar.Link>
           <Navbar.Link href="#">FAQ</Navbar.Link>
-          <Navbar.Link href="#">Compania</Navbar.Link>
+          <Navbar.Link isActive>Compania</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
           <Navbar.Link color="inherit" href="#">
