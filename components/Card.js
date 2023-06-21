@@ -42,7 +42,7 @@ export default function App() {
         isPressable
         isHoverable>
           <Card.Body>
-        <Text className="Texto1"  align="center" color="Black">Teclados de Membrana</Text>
+        <Text className="Texto1"  align="center" color="Black" >Teclados de Membrana</Text>
         <Image className="imagen1"  src="https://img.pccomponentes.com/pcblog/3298/teclados-de-membrana.jpg" alt="Imagen de la carta" objectFit="fill"/>
         </Card.Body>
         </Card>
